@@ -25,6 +25,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo {
@@ -35,7 +36,6 @@ p {
     display: flex;
     gap: 30px;
     padding: 0 60px;
-
 }
 
 .nav-list li {
@@ -131,7 +131,7 @@ p {
 
 .section-price h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 36px;
 }
 
 .section-price p {
@@ -151,6 +151,10 @@ p {
     margin: 0 20px;
 }
 
+.plan ul {
+    padding: 0;
+}
+
 .price {
     width: 120px;
     height: 120px;
@@ -160,7 +164,6 @@ p {
     list-style: none;
     text-align: center;
     color: #fff;
-    font-weight: bold;
     position: relative;
     margin: 0px auto -50px;
     font-size: 18px;
@@ -171,27 +174,29 @@ p {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    width: 260px;
-    height: 90px;
-    line-height: 140px;
+    line-height: 150px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
+    width: 265px;
+    height: 100px;
 }
 
 .plan-descricao {
-    background-color: rgb(232, 233, 234);
+    background-color: #e8e9ea;
     list-style: none;
     line-height: 50px;
     text-align: center;
+    color: #333;
 }
 
 .plan-btn {
     list-style: none;
     text-align: center;
     background-color:  rgb(44, 199, 106);
-    padding: 30px 0;
+    padding: 24px 0;
     color: #fff;
-    font-size: 26px;
+    font-size: 24px;
+    cursor: pointer;
 }
 
 .price-red {
@@ -211,11 +216,12 @@ p {
 
 .plan-btn-red {
     background-color: rgb(244, 92, 87);
-    padding: 30px 0;
+    padding: 24px 0;
     color: #fff;
     font-size: 26px;
     list-style: none;
     text-align: center;
+    font-size: 24px;
 }
 
 .dominio {
@@ -306,26 +312,73 @@ footer p {
     font-weight: bold;
 }
 
-@media (max-width: 1100px) {
 
-   .section-price {
-    margin-top: 30px;
-   
+@media (max-width: 800px) {
+   .menu {
+    padding: 0 10px;
    }
 
+   .nav-list {
+    gap: 20px;
+    padding: 0 20px;
+    font-size: 14px;
+   }
+
+   .btn-menu {
+    font-size: 14px;
+    }
+
+    .descricao {
+        padding-top: 110px;
+    }
+
+   .descricao h1 {
+    font-size: 30px;
+    margin-top: 10px;
+   }
+
+   .descricao p {
+    font-size: 20px;
+   }
+
+   .main-banner {
+    background-image: url(img/mainbanner.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding: 50px 0px;
+}
+
+    .card {
+        display: block;
+    }
+
+    .section-price {
+        margin-top: 15px;
+    }
+
+    .section-price h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .section-price p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
     .container-price {
-        width: 100%;
-        
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 
-    .plan {
-       width: 230px;
-       margin: 0 5px;
-       
-    }
+    
+    
+   
 
-    .plan-name {
-        width: 230px;
-        list-style: none;
-    }
+
 }
