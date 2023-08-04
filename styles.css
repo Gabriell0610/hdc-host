@@ -44,6 +44,8 @@ p {
     list-style: none;
     text-transform: uppercase;
     margin-top: 15px;
+    cursor: pointer;
+   
 }
 
 .btn-menu {
@@ -51,10 +53,11 @@ p {
     border: 0;
     border-radius: 5px;
     color: #fff;
-    padding: 15px 20px;
+    padding: 15px 20px; 
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700px;
+    cursor: pointer;
 }
 
 .main-banner {
@@ -69,7 +72,6 @@ p {
     padding-top: 160px;
     text-align: center;
     color: rgb(255, 255, 255);
-    text-align: center;
     font-weight: bold;
     text-shadow: rgb(0, 0, 0) 3px 2px 3px;
     
@@ -85,7 +87,7 @@ p {
 }
 
 .section {
-   padding: 50px 0;
+    padding: 50px 0;
 
 }
 
@@ -126,7 +128,6 @@ p {
 }
 
 .section-price {
-    padding-bottom: 50px 0;
     text-align: center;
 }
 
@@ -295,7 +296,7 @@ footer p {
     html, body {
         overflow-x: hidden;
     }
-    
+
     .menu {
         padding: 0 15px;
     }
