@@ -292,6 +292,10 @@ footer p {
 
 
 @media (max-width:1024px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    
     .menu {
         padding: 0 15px;
     }
@@ -310,6 +314,10 @@ footer p {
 }
 
 @media (max-width:768px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
    .descricao p {
     padding: 0 60px;
    }
@@ -326,6 +334,9 @@ footer p {
 
 
 @media (max-width:425px) {
+    html, body {
+        overflow-x: hidden;
+    }
 
     .nav-list li {
         font-size: 14px;
@@ -398,6 +409,10 @@ footer p {
 }
 
 @media (max-width:375px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
     .menu {
         width: 100%;
     }
@@ -433,6 +448,10 @@ footer p {
 }
 
 @media (max-width:320px) {
+    html, body {
+        overflow-x: hidden;
+    }
+   
     .menu {
         width: 100%;
     }
